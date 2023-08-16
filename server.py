@@ -22,7 +22,7 @@ with open(model_path, 'rb') as f:
 
 @app.route('/')
 def hello_world():
-    return render_template("my_file.html")
+    return render_template("webpage.html")
 
 @app.route('/predict', methods=['POST'])
 def predict():
